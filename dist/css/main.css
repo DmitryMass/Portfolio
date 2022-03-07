@@ -106,6 +106,7 @@
 @media screen and (max-width: 1200px) {
   .bgc {
     background-size: cover;
+    background-attachment: initial;
   }
 }
 
@@ -623,6 +624,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-bgc {
+    background-attachment: initial;
+  }
 }
 
 .contact-form {
