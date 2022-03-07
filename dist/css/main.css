@@ -203,6 +203,12 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .skill-bgc {
+    background-attachment: initial;
+  }
+}
+
 .skill-block {
   display: grid;
   grid-template-columns: repeat(6, minmax(100px, 1fr));
