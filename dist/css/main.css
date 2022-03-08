@@ -189,6 +189,12 @@
   transform: translateY(0) rotate(45deg);
 }
 
+.content-bgc {
+  background: rgba(46, 34, 60, 0.8);
+  border-radius: 20px;
+  padding: 10px;
+}
+
 .skill-bgc {
   background-image: url(../../assets/images/img8.png);
   width: 100%;
@@ -212,9 +218,6 @@
   display: grid;
   grid-template-columns: repeat(6, minmax(100px, 1fr));
   gap: 40px;
-  background: rgba(46, 34, 60, 0.8);
-  border-radius: 20px;
-  padding: 10px;
 }
 
 @media screen and (max-width: 992px) {
@@ -290,6 +293,7 @@
 
 .about {
   padding: 50px 0;
+  background-color: #10002b;
 }
 
 @media screen and (max-width: 576px) {
@@ -387,6 +391,8 @@
 
 .work {
   padding: 60px 0;
+  height: 100vh;
+  background-color: #10002b;
 }
 
 .work-box {
@@ -536,7 +542,7 @@
 
 .item-buttons {
   display: flex;
-  flex-direction: column;
+  gap: 20px;
   align-items: center;
 }
 
@@ -749,7 +755,6 @@ body {
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: #10002b;
 }
 
 * {
